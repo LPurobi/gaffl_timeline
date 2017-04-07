@@ -1,0 +1,121 @@
+
+
+	#header{
+		background: url(img/1.jpg);
+		background-size: cover;
+		background-position:center;
+		background-repeat: no-repeat;
+		height: 632px;
+		padding: 0 50px;
+		margin-top: -100px;
+	}
+
+	/*bootstrap customization*/
+	.navbar-default {
+	    background-color: transparent;
+	    border-color: transparent;
+	}
+
+	.navbar-default .navbar-nav>li>a {
+	    color: white;
+	}
+
+	.navbar-nav{
+		margin-top: 15px;
+	}
+	.navbar-right {
+	    
+	    margin-right: 100px;
+	}
+
+	.navbar-default .navbar-nav>li>a>button{
+	    height:50px;
+	    width: 50px;
+	    background-image: url(img/cat.jpeg);
+	    background-size: 50px 50px;
+	    border-radius: 50%;
+	    border: 2px solid coral;
+	    
+	}
+	/*end bootstrap customization*/
+
+	.newsfeed{
+		height: 401px;
+		/*position: relative;*/
+		width: 100%;
+		/*z-index: 4;*/
+		display: inline-block;
+		border: 2px solid green;
+		padding: 0;
+		margin:0;
+		margin-top: -110px;
+	}
+	.profile{
+		border: 2px solid red;
+	}
+
+	.profilepic{
+		background-image: url(img/cat.jpeg);
+		background-size: 260px 260px;
+		background-repeat: no-repeat;
+		border-radius: 3px;
+		/*display: inline-block;*/
+		padding: 1px;
+		height: 260px;
+	    width: 260px;
+	    border: 4px solid coral;
+	    
+	}
+.para{
+	margin-top: 20px;
+}
+.news{
+		border: 2px solid red;
+	}
+	
+.Surname{
+		border: 2px solid red;
+		color: white;
+	}
+
+.news p{
+		margin-right: 50px;
+		margin-top: 15px;
+		font-family: sans-serif,arial, helvetica;
+	}
+
+.news a{
+		border-radius: 24px;
+		background-color: blue;
+		height: 100px;
+	}
+.nf{
+	/*width: 100%;*/
+		margin-top: 0;
+		background:white;
+		border-radius: 3px;
+		display: block;
+		padding: 1px;
+		height: 460px;
+	    border: 2px solid red;
+	    /*margin-left: 65px;*/
+	}
+
+.btn a button{
+		width: auto;
+		height: auto;
+		background-color:#337ab7;
+		color: white;
+		font-size: 15px;
+		border-radius: 6px;
+		margin: 10px 0;
+		border-color: 2px solid #337ab7;
+}
+
+.btn{
+		height: 150px;
+		width: 80%;
+		background-position: center;
+		margin: 20px;
+		border: 2px solid red;
+	}
